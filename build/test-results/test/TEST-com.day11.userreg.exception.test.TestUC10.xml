@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.day11.userreg.exception.test.TestUC10" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-10-09T04:24:50" hostname="DESKTOP-9T3G1G1" time="0.02">
+  <properties/>
+  <testcase name="passwordValidation" classname="com.day11.userreg.exception.test.TestUC10" time="0.002"/>
+  <testcase name="mobileValidation" classname="com.day11.userreg.exception.test.TestUC10" time="0.004"/>
+  <testcase name="fNValidation" classname="com.day11.userreg.exception.test.TestUC10" time="0.004"/>
+  <testcase name="lNValidation" classname="com.day11.userreg.exception.test.TestUC10" time="0.001"/>
+  <testcase name="emailValidation" classname="com.day11.userreg.exception.test.TestUC10" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

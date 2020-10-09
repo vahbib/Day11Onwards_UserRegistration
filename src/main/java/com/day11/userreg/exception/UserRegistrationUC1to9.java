@@ -28,7 +28,10 @@ public class UserRegistrationUC1to9 {
 
     // UC 5 to 8 - Password
     public boolean password(String pass) {
-        return (Pattern.matches("^(?=.\\d)(?=.[a-z])(?=.[A-Z])(?!.\\s)[a-zA-Z0-9][^a-zA-Z0-9\\s]{1}[a-zA-Z0-9]$", pass) == true);
+        return (Pattern.matches("^(?=.*[0-9])"
+                + "(?=.*[a-z])(?=.*[A-Z])"
+                + "(?=.*[@#$%^&+=])"
+                + "(?=\\S+$).{8,}$", pass) == true);
     }
 
     public static void main(String[] args) {
