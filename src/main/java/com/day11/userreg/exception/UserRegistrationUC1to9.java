@@ -15,7 +15,8 @@ public class UserRegistrationUC1to9 {
     }
 
     /*
-     * UC 3 - enter a valid email UC 9 - Cleared All Sample Provided
+     * UC 3 - enter a valid email
+     * UC 9 - Cleared All Sample Provided
      */
     public boolean email(String emailId) {
         return (Pattern.matches("^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9]+(?:\\.[a-zA-Z0-9]+)*$", emailId) == true);
